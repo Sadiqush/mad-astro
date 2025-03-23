@@ -8,6 +8,6 @@ RUN bun install
 
 COPY . .
 
-EXPOSE 3000
+EXPOSE 4321
 
-RUN bun run
+RUN bun run start
