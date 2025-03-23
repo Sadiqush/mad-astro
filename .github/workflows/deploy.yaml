@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
-          node-version: "18"
+          node-version: "20"
       - name: update-chabokan
         env:
           CHABOKAN_TOKEN: ${{ 27016ded2edaf9a78c2e8353694e893b4662b723 }}
