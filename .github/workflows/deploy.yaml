@@ -13,7 +13,7 @@ jobs:
           node-version: "20"
       - name: update-chabokan
         env:
-          CHABOKAN_TOKEN: ${{ 27016ded2edaf9a78c2e8353694e893b4662b723 }}
+          CHABOKAN_TOKEN: ${{ secrets.CHABOKAN_TOKEN }}
         run: |
           npm install -g @chabokan.net/cli
           chabok login -t $CHABOKAN_TOKEN
